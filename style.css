@@ -9,7 +9,7 @@ body {
 }
 
 .game {
-    margin-top: 1.7rem;
+  margin-top: 1.7rem;
   height: 36rem;
   width: 36rem;
   display: flex;
@@ -18,27 +18,39 @@ body {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .boxes {
-    height: 11rem;
-    width: 11rem;
-    border-radius: .75rem;
-    border: 0;
-    box-shadow:  0.5rem 0.5rem 0.5rem 0.01rem #283845;
-    background-color: #B8B08D;
-    color: #283845;
-    font-size: 9rem;
+  height: 11rem;
+  width: 11rem;
+  border-radius: 0.75rem;
+  border: 0;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.01rem #283845;
+  background-color: #b8b08d;
+  color: #283845;
+  font-size: 9rem;
 }
 
 .reset {
-    height: 3rem;
-    width: 10rem;
-    margin-top: 2rem;
-    border-radius: 0.3rem;
-    background-color: #F29559;
-    font-size: 1rem;
+  height: 3rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  background-color: #f29559;
+  font-size: 1rem;
+}
+
+.winner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
 }
